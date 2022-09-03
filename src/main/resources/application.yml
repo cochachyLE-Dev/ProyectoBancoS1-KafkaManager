@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Kafka-Manager
+  cloud:
+    config:
+      username: user
+      password: password.
+  config:
+    import: configserver:http://localhost:8888  
